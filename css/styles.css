@@ -1,0 +1,275 @@
+/* #region Base */
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --primary-cl: #8f95a5;
+  --secondary-cl: #939393;
+  --accent-cl: #263238;
+  --dark-cl: #000;
+  --light-cl: #f5f5f5;
+  --white-cl: #fff;
+  --radius-sm: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+img,
+svg {
+  display: block;
+}
+button {
+  padding: 0;
+  color: currentColor;
+  border-color: transparent;
+  cursor: pointer;
+}
+body {
+  font-family: var(--main-font);
+  line-height: 1.5;
+  color: var(--primary-cl);
+}
+.logo {
+  font-size: 36px;
+  color: var(--dark-cl);
+}
+.logo-accent {
+  color: var(--secondary-cl);
+}
+.features-title,
+.about-title,
+.pricing-title,
+.contacts-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--dark-cl);
+}
+/* #endregion Base */
+
+/* #region Header */
+.header {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--accent-cl);
+}
+.header-btn {
+  min-width: 312px;
+  padding: 20px 56px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--dark-cl);
+  background: transparent;
+  border: 2px solid var(--accent-cl);
+  border-radius: var(--radius-sm);
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--light-cl);
+  background: var(--accent-cl);
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+}
+.hero-left-side {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--dark-cl);
+}
+.hero-desc {
+  font-size: 24px;
+  color: var(--primary-cl);
+}
+.hero-btn {
+  min-width: 426px;
+  padding: 23px 64px;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: var(--light-cl);
+  background: var(--accent-cl);
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-cl);
+  background: var(--white-cl);
+  border-color: var(--accent-cl);
+}
+.hero-right-side {
+}
+.hero-ill {
+}
+/* #endregion Hero */
+
+/* #region Features */
+.features {
+  padding: 180px 0;
+}
+.features-title {
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: var(--dark-cl);
+}
+.features-list {
+}
+.features-card {
+  width: 426px;
+  padding: 32px 18px;
+  background: var(--light-cl);
+  border-radius: var(--radius-sm);
+}
+.features-ill {
+}
+.features-caption {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--accent-cl);
+}
+.features-desc {
+  margin-bottom: 30px;
+}
+.features-btn {
+  padding: 16px 64px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--white-cl);
+  background: var(--accent-cl);
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+}
+.features-btn:hover,
+.features-btn:focus {
+  color: var(--accent-cl);
+  background: transparent;
+  border-color: var(--accent-sm);
+}
+/* #endregion Features */
+
+/* #region About */
+.about {
+}
+.about-left-side {
+}
+.about-title {
+}
+.about-desc {
+  font-size: 20px;
+  line-height: 1.8;
+}
+.about-list {
+}
+.about-stat {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--accent-cl);
+}
+.about-text {
+  font-size: 20px;
+  color: var(--primary-cl);
+}
+/* #endregion About */
+
+/* #region Pricing */
+.pricing {
+}
+.pricing-title {
+}
+.pricing-list {
+}
+.pricing-item {
+}
+.pricing-ill {
+}
+.pricing-caption {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: var(--accent-cl);
+}
+.pricing-desc {
+  font-size: 20px;
+  color: var(--primary-cl);
+}
+.pricing-meta {
+  width: fit-content;
+  padding: 4px 30px;
+  border-radius: var(--radius-sm);
+  background: var(--light-cl);
+
+  span {
+    font-size: 24px;
+    text-align: center;
+    color: var(--accent-cl);
+
+    &:last-child {
+      color: var(--primary-cl);
+    }
+  }
+}
+/* #endregion Pricing */
+
+/* #region Contacts */
+.contacts {
+}
+.contacts-left-side {
+}
+.contacts-ill {
+}
+.contacts-right-side {
+}
+.contacts-title {
+}
+.contacts-text {
+  font-size: 20px;
+  color: var(--primary-cl);
+}
+.contacts-form {
+}
+/* #endregion Contacts */
+
+/* #region Footer */
+.footer {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-cl);
+}
+/* #endregion Footer */
