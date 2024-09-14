@@ -109,13 +109,14 @@ body {
 }
 .hero-btn {
   min-width: 426px;
+  min-height: 100px;
   padding: 23px 64px;
   font-size: 36px;
   letter-spacing: 0.03em;
   color: var(--light-cl);
   background: var(--accent-cl);
   border: 2px solid transparent;
-  border-radius: var(--radius-sm);
+  border-radius: 10px;
 }
 .hero-btn:hover,
 .hero-btn:focus {

@@ -1,0 +1,56 @@
+.size-system {
+  display: none;
+}
+
+.card {
+  max-width: 300px;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 20px;
+
+  p {
+    color: white;
+  }
+}
+.wrapper {
+  position: absolute;
+  top: -80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.wrapper img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.star {
+  --base: 8px;
+
+  --size: calc(var(--base) * var(--coef));
+
+  width: var(--size);
+  height: var(--size);
+}
+.size-s {
+  --size: calc(var(--base) * 5);
+}
+.size-base {
+  --size: calc(var(--base) * 4);
+}
+.size-m {
+  --size: calc(var(--base) * 6);
+}
+.size-l {
+  --size: calc(var(--base) * 8);
+}
+.size-xl {
+  --size: calc(var(--base) * 11);
+}
